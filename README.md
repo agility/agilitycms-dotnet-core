@@ -18,7 +18,7 @@ Agility package for page management and URL redirects. Agility CMS .NET Core use
 
 # Core
 ## Page Management
-To add page management to your solution you add the following in ```Startup.cs```.
+To add page management to your project (_Agility CMS .NET Starter or empty project_) you need to update ```Startup.cs``` with the following.
 
 In ```ConfigureServices(IServiceCollection services)``` add ```services.AddSingleton<AgilityRouteTransformer>();```
 
@@ -34,6 +34,14 @@ and in ```Configure(IApplicationBuilder app, IWebHostEnvironment env)``` add
 You can change ```AgilityRouteTransformer.cs``` to fit your needs or you can create your own Route Transformer. Keep in mind to use the ```AgilityRouteTransformer.cs``` it requires having the AgilityPage.cshtml in your Pages folder.
 
 ## URL Redirects
+To add URL redirects to your project (_Agility CMS .NET Starter or empty project_) you need to update ```Startup.cs``` with the following.
+
+In ```Configure(IApplicationBuilder app, IWebHostEnvironment env)``` add
+```
+    app.UseMiddleware<AgilityRedirectMiddleware>();
+```
+
+You can change to ```AgilityRedirectMiddleware.cs``` to fit your needs or you can create your own Redirect Middleware. 
 
 
 
