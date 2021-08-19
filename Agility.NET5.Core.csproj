@@ -8,11 +8,11 @@
     <Authors>Daniel Karpienia</Authors>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>Agility package for page management and URL redirects.</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Agility.NET5.FetchAPI" Version="1.0.1" />
-		<PackageReference Include="Agility.NET5.Shared" Version="1.0.0" />
+		<PackageReference Include="Agility.NET5.FetchAPI" Version="1.0.3" />
+		<PackageReference Include="Agility.NET5.Shared" Version="1.0.1" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 
