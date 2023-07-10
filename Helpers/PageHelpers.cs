@@ -1,4 +1,4 @@
-﻿namespace Agility.NET5.Core.Helpers
+﻿namespace Agility.NET.Core.Helpers
 {
     public static class PageHelpers
     {
