@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Agility.NET5.Core</RootNamespace>
-    <Product>Agility SDK .NET 5.0</Product>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Agility.NET.Core</RootNamespace>
+    <Product>Agility SDK .NET</Product>
     <Company>Agility CMS</Company>
     <Authors>Daniel Karpienia</Authors>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -11,8 +11,8 @@
     <Version>1.0.2</Version>
   </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Agility.NET5.FetchAPI" Version="1.0.3" />
-		<PackageReference Include="Agility.NET5.Shared" Version="1.0.1" />
+		<PackageReference Include="Agility.NET.FetchAPI" Version="1.0.3" />
+		<PackageReference Include="Agility.NET.Shared" Version="1.0.1" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Agility.NET5.Core.Helpers;
-using Agility.NET5.FetchAPI.Helpers;
-using Agility.NET5.FetchAPI.Models.API;
-using Agility.NET5.FetchAPI.Services;
+using Agility.NET.Core.Helpers;
+using Agility.NET.FetchAPI.Helpers;
+using Agility.NET.FetchAPI.Models.API;
+using Agility.NET.FetchAPI.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 
-namespace Agility.NET5.Core.Domain
+namespace Agility.NET.Core.Domain
 {
     public class AgilityRedirectMiddleware
     {
